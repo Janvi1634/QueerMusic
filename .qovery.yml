@@ -1,0 +1,15 @@
+---
+application:
+  name: "queermusic12vc"
+  project: "QueerMusicPlayer"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "MusicPlayer12"
+  version: "4.4"
+routers:
+- name: "main-queermusic12vc"
+  routes:
+  - application_name: "queermusic12vc"
+    paths:
+    - "/*"
